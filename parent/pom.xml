@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>baiyu</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>shop_common</module>
+  	<module>shop_pojo</module>
+  	<module>shop_service_product</module>
+  	<module>shop_service_interface</module>
+  	<module>shop_dao_interface</module>
+  	<module>shop_service_solr</module>
+  	<module>shop_service_buyer</module>
+  	<module>shop_service_cms</module>
+  	<module>shop_console</module>
+  	<module>shop_portal</module>
+  	<module>shop_login</module>
+  </modules>
+</project>
